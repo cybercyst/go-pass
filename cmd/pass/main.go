@@ -16,6 +16,16 @@ func main() {
 			commands.Init,
 			commands.List,
 			commands.Find,
+			commands.Show,
+			commands.Grep,
+			commands.Insert,
+			commands.Edit,
+			commands.Generate,
+			commands.Remove,
+			commands.Move,
+			commands.Copy,
+			commands.Git,
+			commands.Version,
 		},
 	}
 

@@ -2,12 +2,12 @@ package commands
 
 import (
 	"context"
-	"fmt"
+	"log"
 
 	"github.com/urfave/cli/v3"
 )
 
 var stubAction = func(ctx context.Context, c *cli.Command) error {
-	fmt.Println(c.Name)
+	log.Fatalf("%s is not implemented!", c.Name)
 	return nil
 }
